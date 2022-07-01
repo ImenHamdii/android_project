@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">calcul_pound_kg</string>
+    <string name="premierbutton">button1</string>
+    <string name="deuxiembutton">button2</string>
+    <string name="res">resultat</string>
+    <string name="conver">conversion</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="niveau">
+        <item>Débutant</item>
+        <item>Moyen</item>
+        <item>Pro</item>
+    </string-array>
+    <string-array name="Valniveau">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

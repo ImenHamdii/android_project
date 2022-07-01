@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Paramètres">
+        <CheckBoxPreference
+            android:title="Activer Commentaires"
+            android:summaryOff="Ne pas activer"
+            android:summaryOn="Activer"
+            android:key="c1"/>
+        <EditTextPreference
+            android:title="Commentaires"
+            android:summary="Commentaires"
+            android:key="e1"
+            android:dependency="c1"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Niveau">
+        <CheckBoxPreference
+            android:title="Activer le niveau"
+            android:summaryOff="Cette case est désactiver"
+            android:summaryOn="Cette case est activer"
+            android:key="c2"/>
+        <ListPreference
+            android:title="Niveau"
+            android:summary="Choisir un niveau"
+            android:key="l1"
+            android:dependency="c2"
+            android:entries="@array/niveau"
+            android:entryValues="@array/Valniveau"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Audio">
+        <PreferenceScreen
+            android:title="Audi">
+
+        <CheckBoxPreference
+            android:title="Activer sonneries"
+            android:summaryOff="Désactiver la sonnerie"
+            android:summaryOn="Activer la sonnerie"
+            android:key="c3"/>
+            <RingtonePreference
+                android:title="Sonneries"
+                android:dependency="c3"
+                android:summary="Choisir une sonnerie"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

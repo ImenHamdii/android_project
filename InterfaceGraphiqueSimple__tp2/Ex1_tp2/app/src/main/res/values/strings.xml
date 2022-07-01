@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="rouge">Rouge</string>
+    <string name="bleu">Bleu</string>
+    <string name="vert">Vert</string>
+    <string name="jaune">Jaune</string>
+    <string name="un">Un</string>
+    <string name="deux">Deux</string>
+    <string name="trois">Trois</string>
+    <string name="quatre">Quatre</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloGridView</string>
+    <string name="action_dial">action_dial</string>
+    <string name="add">add</string>
+    <string name="about">about</string>
+    <string name="exit">exit</string>
+</resources>
