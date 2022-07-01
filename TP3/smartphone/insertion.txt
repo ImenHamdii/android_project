@@ -1,0 +1,6 @@
+INSERT INTO `smartphone`(`marque`, `prix`, `image`) VALUES ("Huawei P30 Pro",3899.000,"huawei.jpg");
+INSERT INTO `smartphone`(`marque`, `prix`, `image`) VALUES ("Samsung Galaxy S20",3699.000,"samsung.jpg");
+INSERT INTO `smartphone`(`marque`, `prix`, `image`) VALUES ("Oppo Find X2 Pro",2700.000,"opp.png");
+INSERT INTO `smartphone`(`marque`, `prix`, `image`) VALUES ("OnePlus 8 Pro",2790.000,"oneplus.jpg");
+INSERT INTO `smartphone`(`marque`, `prix`, `image`) VALUES ("Apple iPhone 12 Pro",4000.000,"iphone.jpg");
+INSERT INTO `smartphone`(`marque`, `prix`, `image`) VALUES ("Xiaomi Mi 10 Pro",1899.000,"xiaomi.jpg");

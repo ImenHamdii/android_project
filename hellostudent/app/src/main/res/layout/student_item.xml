@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+      android:layout_gravity="center"
+        android:text="id"
+        android:textSize="20dp"
+        android:id="@+id/txtid" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="150dp"
+            android:text="name"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/txtn"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_width="150dp"
+            android:text="phone"
+            android:id="@+id/txtp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_launcher_background"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:src="@android:drawable/ic_menu_edit"
+        tools:visibility="visible"></ImageView>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:src="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
